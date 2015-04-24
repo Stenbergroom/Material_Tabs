@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import butterknife.ButterKnife;
@@ -38,7 +39,7 @@ public class MainActivity extends ActionBarActivity {
 
     public class MyPagerAdapter extends FragmentPagerAdapter{
 
-        private final String[] TITLES = {"Index", "Message", "Explore", "Other", "Map"};
+        private final String[] TITLES = {"Index", "Message", "Explore", "Other", "Map", "Cars", "Little", "Bus"};
 
         public MyPagerAdapter(FragmentManager fm) {
             super(fm);
