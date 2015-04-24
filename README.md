@@ -3,7 +3,7 @@ Material Toolbar with Tabs
 
 # Usage
 
-*For a working implementation of this project see the `sample/` folder.*
+*For a working implementation of this project see the `app/` folder.*
 
   1. Include the following dependency to your gradle file.
 
