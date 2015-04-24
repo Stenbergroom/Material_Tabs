@@ -17,7 +17,12 @@ package com.stenbergroom.material_tabs.app;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.view.ViewCompat;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.TextView;
+import butterknife.ButterKnife;
 import butterknife.InjectView;
 
 public class SuperAwesomeCardFragment extends Fragment {
@@ -35,5 +40,20 @@ public class SuperAwesomeCardFragment extends Fragment {
         b.putInt(ARG_POSITION, position);
         f.setArguments(b);
         return f;
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        position = getArguments().getInt(ARG_POSITION);
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.fragment_card, container, false);
+        ButterKnife.inject(this, rootView);
+        ViewCompat.setElevation(rootView, 50);
+        textView.setText("Content " + position);
+        return rootView;
     }
 }
