@@ -7,7 +7,7 @@
 
 *For a working implementation of this project see the `app/` folder.*
 
-  1. Include the following dependency to your gradle file.
+  Include the following dependency to your gradle file.
 
 ```groovy
         compile 'com.android.support:appcompat-v7:22.0.0'
