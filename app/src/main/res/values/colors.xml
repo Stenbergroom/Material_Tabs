@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="main_color">#00BCD4</color>
-    <color name="main_color_50">#E0F7FA</color>
-    <color name="main_color_100">#B2EBF2</color>
-    <color name="main_color_200">#80DEEA</color>
-    <color name="main_color_300">#4DD0E1</color>
-    <color name="main_color_400">#26C6DA</color>
-    <color name="main_color_600">#00ACC1</color>
-    <color name="main_color_700">#0097A7</color>
-    <color name="main_color_800">#00838F</color>
-    <color name="main_color_900">#006064</color>
-    <color name="main_color_A100">#84FFFF</color>
-    <color name="main_color_A200">#18FFFF</color>
-    <color name="main_color_A400">#00E5FF</color>
-    <color name="main_color_A700">#00B8D4</color>
+    <color name="main_color">#3F51B5</color>
+    <color name="main_color_50">#E8EAF6</color>
+    <color name="main_color_100">#C5CAE9</color>
+    <color name="main_color_200">#9FA8DA</color>
+    <color name="main_color_300">#7986CB</color>
+    <color name="main_color_400">#5C6BC0</color>
+    <color name="main_color_600">#3949AB</color>
+    <color name="main_color_700">#303F9F</color>
+    <color name="main_color_800">#283593</color>
+    <color name="main_color_900">#1A237E</color>
+    <color name="main_color_A100">#8C9EFF</color>
+    <color name="main_color_A200">#536DFE</color>
+    <color name="main_color_A400">#3D5AFE</color>
+    <color name="main_color_A700">#304FFE</color>
 
     <color name="floating_color">#FDD835</color>
 

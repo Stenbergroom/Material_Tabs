@@ -18,8 +18,8 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:pstsIndicatorColor="#FFF"
-            app:pstsTextColorSelected="#FFF"
+            app:pstsIndicatorColor="@color/floating_color"
+            app:pstsTextColorSelected="@color/floating_color"
             android:textColor="#DDD"
             android:fillViewport="false">
     </com.astuetz.PagerSlidingTabStrip>
